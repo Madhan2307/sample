@@ -14,6 +14,7 @@ function Lpage1() {
         <h1>hi</h1>
       </div>
     </div>
+    
   )
 }
 export default Lpage1
