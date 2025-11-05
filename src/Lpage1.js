@@ -9,8 +9,10 @@ function Lpage1() {
   }, [])
   return (
     <div>
-      <ToastContainer />
-      <h1>hi</h1>
+      <div>
+        <ToastContainer />
+        <h1>hi</h1>
+      </div>
     </div>
   )
 }
