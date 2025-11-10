@@ -21,11 +21,13 @@ export default function Logp() {
     }
 
   }
-
+    
+  let obj = {name:"my name", stack :"front"}
 
   return (
     <div>
       <ToastContainer />
+      <h1> {obj.stack}</h1>
       <h1>
         login page
       </h1 >

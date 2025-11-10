@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "./Home.scss"
+// import "./Home.scss"
 import img from "./Images/download.jpg"
 import { TbGardenCartFilled } from "react-icons/tb";
 import 'bootstrap/dist/css/bootstrap.min.css';

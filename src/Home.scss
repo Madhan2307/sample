@@ -1,11 +1,10 @@
-.home{
-    color: chartreuse;
+.lightmode{
+    background-color: white;
+    color: black;
+    height: 100vh;
 }
-.all{
-    h1{
-        color: aqua;
-    }
-    h2{
-        color: blanchedalmond;
-    }
+.darkmode{
+    background-color: black;
+    color: white;
+    height: 100vh;
 }
