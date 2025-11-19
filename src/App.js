@@ -6,6 +6,9 @@ import Home from './Home'
 import Signp from './Signp'
 import Logp from './Logp'
 import Lpage1 from './Lpage1'
+import Allproduct from './Allproduct'
+import Api from './Api'
+import Product from './Product'
 
 
 export class app extends Component {
@@ -17,9 +20,12 @@ export class app extends Component {
             {/* <Route path='/' element={<Home />} />
             <Route path='/enterpage' element={<Enter />} />
             <Route path='/cardpage' element={<Card />} /> */}
-            <Route path='/' element={<Signp/>}/>
+            {/* <Route path='/' element={<Signp/>}/>
             <Route path='/loginpage' element={<Logp />}/>
-            <Route path='/loginpage1' element={<Lpage1/>}/>
+            <Route path='/loginpage1' element={<Lpage1/>}/> */}
+            <Route path='/' element={<Allproduct/>}></Route>
+            <Route path='/api' element={<Api/>}></Route>
+            <Route path='/product' element={<Product/>}></Route>
           </Routes>
         </Router>
       </div>
