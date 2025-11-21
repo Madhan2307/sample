@@ -9,6 +9,8 @@ import Lpage1 from './Lpage1'
 import Allproduct from './Allproduct'
 import Api from './Api'
 import Product from './Product'
+import Update from './Update'
+import Useref from './Useref'
 
 
 export class app extends Component {
@@ -17,15 +19,17 @@ export class app extends Component {
       <div>
         <Router>
           <Routes>
-            {/* <Route path='/' element={<Home />} />
+            <Route path='/' element={<Home />} />
             <Route path='/enterpage' element={<Enter />} />
-            <Route path='/cardpage' element={<Card />} /> */}
-            {/* <Route path='/' element={<Signp/>}/>
+            <Route path='/cardpage' element={<Card />} /> */
+            <Route path='/signup' element={<Signp/>}/>
             <Route path='/loginpage' element={<Logp />}/>
-            <Route path='/loginpage1' element={<Lpage1/>}/> */}
-            <Route path='/' element={<Allproduct/>}></Route>
+            <Route path='/loginpage1' element={<Lpage1/>}/>
+            <Route path='/allproduct' element={<Allproduct/>}></Route>
             <Route path='/api' element={<Api/>}></Route>
             <Route path='/product' element={<Product/>}></Route>
+            <Route path='/update' element={<Update/>}></Route>
+            <Route path='/useref' element={<Useref/>}></Route>
           </Routes>
         </Router>
       </div>

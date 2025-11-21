@@ -1,10 +1,68 @@
-.lightmode{
-    background-color: white;
-    color: black;
-    height: 100vh;
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
-.darkmode{
-    background-color: black;
-    color: white;
-    height: 100vh;
+@keyframes slideRight{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 150px;
+    }
+    100%{
+        left: 300px;
+    }
+}
+
+.home{
+    animation: fadeIn 5s ease-in-out;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    position: relative;
+    animation: slideRight 3s infinite alternate;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.rotate{
+    height: 60px;
+    width: 60px;
+    background-color: aqua;
+    animation: rotate 6s linear infinite;
+}
+@keyframes changecolor{
+    0%{
+        background-color: aquamarine;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: black;
+    }
+}
+
+.colorchange{
+        height: 60px;
+    width: 60px;
+    background-color: bisque;
+    animation: changecolor 10s infinite;
+
 }
